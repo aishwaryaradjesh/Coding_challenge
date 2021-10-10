@@ -49,3 +49,10 @@ All numbers in the RHS is assumed to be integers as presented in the problem sta
   random  =  2
   ```
 
+### Note:
+  Code logic to filter elements from a list   
+  ```
+  x = [1,2,3,2,2,2,3,4]
+  list(filter(lambda a: a != 2, x))
+  ```
+  was referred from stack-overflow https://stackoverflow.com/questions/1157106/remove-all-occurrences-of-a-value-from-a-list
