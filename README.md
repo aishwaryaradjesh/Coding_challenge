@@ -10,7 +10,14 @@ The main.py will take a text file 'input.txt' as input.
 The input.txt should be placed in the same path as main.py
 The input.txt should contain a set of equations, each specified on separate lines.
 
-Sample test cases have been provided in the input.txt
+Note: Please use the filename as 'input.txt' for writing the set of equations.
+
+To execute the code, run the following command in the command window where main.py is located:
+
+```
+python main.py
+```
+
 
 ## Comments
 This equation solver only solves equations with '+' operator.
